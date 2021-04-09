@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, body, table, tr, td{
 }
 
 header{
-    padding: 15px;
+    padding: 30px;
     background-color: #000000;
 }
 
@@ -13,20 +13,59 @@ header{
 }
 
 section{
+    border: red solid 0px;
     background-color: white;
 }
 
-.razmetka{
-    height: 1000px;
-    text-align: center;
-    border: red solid 3px;
+.textS{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer{
-    background-color: gray;
+    background-color: rgb(219, 219, 219);
 }
 
 .content{
+    display: flex;
     height: 100px;
+}
+
+.content img{
+    width: 367px;
+    height: 79px;
+}
+
+.content div{
     border: red solid 3px;
+}
+
+.con1{
+    width: 33%;
+}
+
+.con2{
+    text-align: center;
+    width: 33%;
+}
+
+.con3{
+    width: 33%;
+}
+
+.imgsite{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgsite img{
+    margin: 40px;
+}
+
+.forms{
+    margin: 40px;
+    text-align: center;
 }
