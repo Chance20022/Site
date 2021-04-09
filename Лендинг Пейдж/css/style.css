@@ -59,13 +59,17 @@ footer{
     align-items: center;
     display: flex;
     justify-content: space-between;
-}
-
-.imgsite img{
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .forms{
     margin: 40px;
     text-align: center;
+}
+
+.photo1{
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    font-size: 30px;
 }
